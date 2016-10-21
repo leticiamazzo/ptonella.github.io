@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  width: 1280px;
+  padding: 1%;
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    width: 100%;
+  }
+}
+
+ul,li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.inline-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.inline-list-side {
+  text-align: left;
+  width: 49%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1200px) {
+  .inline-list-side {
+    width: 100%;
+  }
+}
+
+.inline-list-side input[type="checkbox"]:checked + span{
+  text-decoration:line-through
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.content-table td {
+  border-bottom: 1px solid gray;
+  padding: 5px;
+}
+
+
