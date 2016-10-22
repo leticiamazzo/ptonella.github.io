@@ -32,6 +32,12 @@ ul {
   text-align: left;
   width: 49%;
   display: inline-block;
+  vertical-align: top;
+}
+
+.inline-list-side.center-list {
+  width: 100%;
+  text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -54,4 +60,9 @@ ul {
   padding: 5px;
 }
 
+.answer,
+.answer-image {
+  display: none;
+  margin-top: 20px;
+}
 
