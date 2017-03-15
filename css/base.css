@@ -106,7 +106,7 @@ body.work{
 }
 
 
-h1{
+h1 {
   font-family: 'montserratbold';
   color: #fff;
   font-size: 42px;
@@ -137,6 +137,14 @@ h1{
 @keyframes text {
   0%{opacity: 0;}
   100% {opacity: 1;}
+}
+
+h1 small {
+  font-size: 40%;
+}
+
+h1 small a {
+  color: #8C8889;
 }
 
 h2 {
