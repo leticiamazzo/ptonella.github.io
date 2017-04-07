@@ -63,8 +63,6 @@ Telefone: 11 123456789
 
 #### Validações do formulário
 
-- Se o usuário clicar em limpar, apagar os campos do formulário.
-
 - Se o usuário clicar em enviar, validar se todos os campos foram preenchidos. Se TODOS não foram preenchidos, mostrar um alert solicitando ao usuário que preencha todos os campos.
 
 - Se todos os dados estiverem preenchidos, pegar todas as variáveis e mostrar uma mensagem para o usuário dentro de um confirm()
