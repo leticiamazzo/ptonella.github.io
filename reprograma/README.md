@@ -14,6 +14,7 @@
 
 #### Requisitos
 
+- desenhar o site no papel antes de começar a programar !important;
 - html (tags semânticas)
 - css (adicionar um estilo ao site)
 - javascript (validar o formulário)
@@ -72,5 +73,10 @@ $nome, você escolheu ir para $pais. Vamos entrar em contato com você através 
 
 Se o usuário confirmar: Exibir um alert() com a mensagem: Você receberá um email em breve. Obrigada por viajar conosco!
 Senão: Por favor, preencha o formulário novamente.
+
+
+***
+
+Have fun! :shipit
 
 
