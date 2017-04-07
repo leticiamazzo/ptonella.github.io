@@ -12,13 +12,15 @@
                         #80c2af
                         #aodde6
 
-#### Requisitos:
+#### Requisitos
 
 - html (tags semânticas)
 - css (adicionar um estilo ao site)
 - javascript (validar o formulário)
 
-#### Estrutura do html:
+***
+
+#### Estrutura do html
 
 - Título: Mundo gelado
 
@@ -32,6 +34,7 @@ Duração de cada viagem (10 dias)
 
 Preço do pacote (R$ 8.000 - tudo incluso)
 
+***
 
 - Form de contato (Todos os campos são obrigatórios)
 
@@ -42,6 +45,8 @@ Email
 Nome do país de destino
 
 Botão limpar e botão enviar
+
+***
 
 - Footer
 
