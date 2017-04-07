@@ -1,11 +1,11 @@
 ## Hotsite mundo gelado
 
-#### Pacotes de viagem -
+#### Pacotes de viagem
                         Islândia
                          Sibéria
                          Alasca
 
-#### Cores da empresa -
+#### Cores da empresa
                         #30c5ff
                         #2a2d34
                         #5c946e
@@ -22,11 +22,13 @@
 
 #### Estrutura do html
 
-- Título: Mundo gelado
+Título: Mundo gelado
 
-- Subtítulo: A gente te leva para conhecer as maravilhas do gelo
+Subtítulo: A gente te leva para conhecer as maravilhas do gelo
 
-- 3 imagens (uma de cada país)
+***
+
+3 imagens (uma de cada país)
 
 Nome de cada país
 
@@ -36,7 +38,7 @@ Preço do pacote (R$ 8.000 - tudo incluso)
 
 ***
 
-- Form de contato (Todos os campos são obrigatórios)
+##### Form de contato (Todos os campos são obrigatórios)
 
 Nome
 
@@ -48,10 +50,27 @@ Botão limpar e botão enviar
 
 ***
 
-- Footer
+##### Footer
 
 Contato: mundo@gelado.com.br
 
 Telefone: 11 123456789
+
+
+***
+
+
+#### Validações do formulário
+
+- Se o usuário clicar em limpar, apagar os campos do formulário.
+
+- Se o usuário clicar em enviar, validar se todos os campos foram preenchidos. Se TODOS não foram preenchidos, mostrar um alert solicitando ao usuário que preencha todos os campos.
+
+- Se todos os dados estiverem preenchidos, pegar todas as variáveis e mostrar uma mensagem para o usuário dentro de um confirm()
+
+$nome, você escolheu ir para $pais. Vamos entrar em contato com você através do email $email para informar os dados de pagamento. Confirma seus dados?
+
+Se o usuário confirmar: Exibir um alert() com a mensagem: Você receberá um email em breve. Obrigada por viajar conosco!
+Senão: Por favor, preencha o formulário novamente.
 
 
