@@ -77,6 +77,10 @@ Senão: Por favor, preencha o formulário novamente.
 
 ***
 
-Have fun! :shipit
+Plus: no formulário, validar se o nome do país está correto.
+
+***
+
+Have fun!
 
 
