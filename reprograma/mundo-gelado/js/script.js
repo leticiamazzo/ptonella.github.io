@@ -8,6 +8,8 @@ function sendData() {
 
   if (name == "" || email == "" || country == "") {
     alert("Por favor, preencha todos os campos do formulário.");
+  } else if (country != "Islândia" && country != "Alasca" && country != "Sibéria") {
+    alert("Por favor, verifique o nome do país de destino.");
   } else {
     var answer = confirm(name + ", você escolheu viajar para " + country + ". Vamos entrar em contato pelo email " + email + " para passar os dados de pagamento. Confirma os dados?" )
 
