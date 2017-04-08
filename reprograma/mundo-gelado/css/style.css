@@ -98,6 +98,12 @@ header {
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 768px) {
+  .country-img:hover {
+    transform: scale(1);
+  }
+}
+
 .country-name {
   font-size: 70px;
   text-transform: uppercase;
@@ -129,6 +135,13 @@ header {
   top: 60px;
   margin: 0;
   font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .country-days,
+  .country-price {
+    opacity: 1;
+  }
 }
 
 .country:hover .country-days,
