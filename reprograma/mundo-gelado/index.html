@@ -1,17 +1,62 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="pt-br">
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
   </head>
   <body>
 
-    <input type="text" placeholder="Digite seu nome*" id="nome">
-    <input type="text" placeholder="Digite o seu e-mail*" id="email">
-    <input type="text" placeholder="Digite o nome do país*" id="pais">
+    <header>
+      <h1 class="main-title">Mundo gelado</h1>
+      <h3 class="main-subtitle">A gente te leva para conhecer as maravilhas do gelo</h3>
+    </header>
 
-    <button onclick="validarFormulario();">Viajar!</button>
+    <main>
+      <section class="countries">
+        <div class="country alaska">
+          <img src="images/alaska.jpg" alt="Foto do Alasca" class="country-img img-responsive img-rounded">
+          <p class="country-name">Alaska</p>
+          <p class="country-days">10 dias</p>
+          <p class="country-price">R$ 8.000 <small>(tudo incluso)</small></p>
+        </div>
+
+        <div class="country iceland">
+          <img src="images/iceland.jpg" alt="Foto da Islândia" class="country-img img-responsive img-rounded">
+          <p class="country-name">Islândia</p>
+          <p class="country-days">10 dias</p>
+          <p class="country-price">R$ 8.000 <small>(tudo incluso)</small></p>
+        </div>
+
+        <div class="country siberia">
+          <img src="images/siberia.jpg" alt="Foto da Sibéria" class="country-img img-responsive img-rounded">
+          <p class="country-name">Sibéria</p>
+          <p class="country-days">10 dias</p>
+          <p class="country-price">R$ 8.000 <small>(tudo incluso)</small></p>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <!-- o correto seria usar uma tag <form> para o formulário, porém como não vamos enviar informações para o servidor, a página vai fazer um reload e vamos perder nossos dados do formulário. -->
+        <!--form-->
+        <h2 class="contact-form-title">Vamos viajar?</h2>
+        <p class="contact-form-subtitle">Preencha o formulário abaixo com os seus dados e em breve entraremos em contato com você.</p>
+          <input type="text" placeholder="Digite seu nome*" id="name" class="contact-form-input">
+          <input type="text" placeholder="Digite o seu e-mail*" id="email" class="contact-form-input">
+          <input type="text" placeholder="Digite o nome do país*" id="country" class="contact-form-input">
+          <button onclick="sendData();" class="contact-form-button">Quero viajar!</button>
+        <!--/form-->
+      </section>
+    </main>
+
+    <footer>
+      <a href="mailto:mundo@gelado.com.br" alt="Enviar um email para mailto:mundo@gelado.com.br" class="footer-links">mundo@gelado.com.br</a>
+      <span>|</span>
+      <a href="tel:+5511123456789" alt="Enviar um email para mailto:mundo@gelado.com.br" class="footer-links">(11) 123456789</a>
+    </footer>
+
+    <!-- o script também pode ser carregado dentro da tag head. estou chamando antes do fechamento da tag <body> para favorecer o carregamento do site -->
+    <script src="js/script.js" type="text/javascript"></script>
 
   </body>
 </html>

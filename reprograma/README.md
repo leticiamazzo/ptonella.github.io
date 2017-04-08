@@ -10,7 +10,7 @@
                         #2a2d34
                         #5c946e
                         #80c2af
-                        #aodde6
+                        #a0dde6
 
 #### Requisitos
 
