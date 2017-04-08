@@ -147,6 +147,12 @@ header {
   text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .contact-form {
+    width: 100%;
+  }
+}
+
 .contact-form-button {
   margin-top: 20px;
   text-align: center;
@@ -168,6 +174,14 @@ header {
   padding: 5px;
   font-size: 13px;
   width: 32%;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-form-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
 }
 
 .contact-form-title {
