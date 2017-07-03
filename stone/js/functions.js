@@ -11,9 +11,4 @@ $(document).ready(function() {
       }
     }
   });
-
-
-  $('.main-menu a').on('click', function() {
-    $(this).prevAll('li').addClass('active').siblings('li').removeClass('active');
-  });
 });
