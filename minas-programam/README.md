@@ -43,11 +43,3 @@ Preço do pacote (R$ 8.000 - tudo incluso)
 Contato: mundo@gelado.com.br
 
 Telefone: 11 123456789
-
-
-***
-
-
-
-
-
