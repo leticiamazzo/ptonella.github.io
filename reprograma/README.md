@@ -1,8 +1,10 @@
 ## Hotsite mundo gelado
+
 ***
 
-Vocês foram contratadas para fazer o hotsite (site promonocional) de uma agência de viagens. As informações necessárias
+Vocês foram contratadas para fazer o hotsite (site promocional) de uma agência de viagens. As informações necessárias
 para a criação do site estão abaixo:
+
 ***
 
 #### Pacotes de viagem
@@ -19,7 +21,7 @@ para a criação do site estão abaixo:
 
 #### Requisitos
 
-- desenhar o site no papel antes de começar a programar !important;
+- desenhar o site no papel (wireframe) antes de começar a programar !important;
 - html (código semântico)
 - css (adicionar um estilo ao site)
 - site responsivo
