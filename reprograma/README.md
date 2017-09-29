@@ -15,9 +15,8 @@
 #### Requisitos
 
 - desenhar o site no papel antes de começar a programar !important;
-- html (tags semânticas)
+- html (código semântico)
 - css (adicionar um estilo ao site)
-- javascript (validar o formulário)
 
 ***
 
@@ -39,7 +38,7 @@ Preço do pacote (R$ 8.000 - tudo incluso)
 
 ***
 
-##### Form de contato (Todos os campos são obrigatórios)
+##### Form de contato (Todos os campos são obrigatórios. Isso pode ser demonstrado com um * ao lado do label)
 
 Nome
 
@@ -47,7 +46,7 @@ Email
 
 Nome do país de destino
 
-Botão limpar e botão enviar
+Botão enviar
 
 ***
 
@@ -56,26 +55,6 @@ Botão limpar e botão enviar
 Contato: mundo@gelado.com.br
 
 Telefone: 11 123456789
-
-
-***
-
-
-#### Validações do formulário
-
-- Se o usuário clicar em enviar, validar se todos os campos foram preenchidos. Se TODOS não foram preenchidos, mostrar um alert solicitando ao usuário que preencha todos os campos.
-
-- Se todos os dados estiverem preenchidos, pegar todas as variáveis e mostrar uma mensagem para o usuário dentro de um confirm()
-
-$nome, você escolheu ir para $pais. Vamos entrar em contato com você através do email $email para informar os dados de pagamento. Confirma seus dados?
-
-Se o usuário confirmar: Exibir um alert() com a mensagem: Você receberá um email em breve. Obrigada por viajar conosco!
-Senão: Por favor, preencha o formulário novamente.
-
-
-***
-
-Plus: no formulário, validar se o nome do país está correto.
 
 ***
 
