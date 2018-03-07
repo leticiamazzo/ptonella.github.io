@@ -1,6 +1,6 @@
-Landing page gatos
+### Landing page gatos (responsiva)
 
-- Landing responsiva
+
 
 Breakpoints:
 
